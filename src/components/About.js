@@ -32,14 +32,13 @@ const About = () => {
     ]
 
     return (
-        <section className="about" id="about">
-            <div className="about-extra-layer">
+        <main className="main-about">
+            <section className="about" id="about">
                 <div className="about-content">
                     <div className="header">
                         <h2>About Us</h2>
                         <div id="underline"></div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolor laboriosam magnam sunt architecto illo, iure rem iusto omnis facilis!</p>
                 </div>
                 <img src={aboutUs} width={fullWidth ? '100%' : '40%'} alt="not found" />
                 <div className="faq-container">
@@ -51,8 +50,8 @@ const About = () => {
                         })
                     }
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
     )
 }
 

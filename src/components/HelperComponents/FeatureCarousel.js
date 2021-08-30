@@ -31,7 +31,7 @@ const FeatureCarousel = () => {
 
     return (
         <>
-            <button onClick={goLeft}><ArrowLeftIcon /></button>
+            <button onClick={goLeft}><ArrowLeftIcon fontSize={'inherit'} /></button>
             <div className="carousel-container">
                 <div className="feature-item" style={{transform: `translateX(${x}%)`}}>
                     <LocalLibraryIcon />
@@ -76,7 +76,7 @@ const FeatureCarousel = () => {
                     </article>
                 </div>
             </div>
-            <button onClick={goRight}><ArrowRightIcon /></button>
+            <button onClick={goRight}><ArrowRightIcon fontSize={'inherit'} /></button>
         </>
     )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Apply = () => {
     return (
-        <section className="apply" id="apply">
-            <div className="apply-extra-layer">
+        <main className="main-apply">
+            <section className="apply" id="apply">
                 <div className="header">
                     <h2>Apply</h2>
                     <div id="underline"></div>
@@ -34,8 +34,8 @@ const Apply = () => {
                         <span>*Must be in high school or above</span>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
     )
 }
 

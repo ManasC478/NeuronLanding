@@ -37,20 +37,15 @@ const NavBar = () => {
 
     return (
         <>
-            <nav style={window.innerWidth <= 700 ? open ? { transform: 'translateX(0%)' } : { transform: 'translateX(100%' } : { transform: 'translateX(0%)' }}>
-                <div className="nav-extra-layer">
-                    <a href="#front-container">
-                        <img id="logo" src="" alt="not found" />
-                        <h1>Neuron</h1>
-                    </a>
-                    <ul className="nav-links">
-                        <a href="#about"><li>About</li></a>
-                        <a href="#features"><li>Features</li></a>
-                        <a href="#team"><li>Team</li></a>
-                        <a href="#apply"><li>Apply</li></a>
-                        <button>Sign In</button>
-                    </ul>
-                </div>
+            <nav style={window.innerWidth <= 700 ? open ? { transform: 'translateX(100%)' } : { transform: 'translateX(200%)' } : { transform: 'translateX(0%)' }}>
+                <h1>Neuron</h1>
+                <ul className="nav-links">
+                    <a href="#features"><li>Features</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#team"><li>Team</li></a>
+                    <a href="#apply"><li>Apply</li></a>
+                    <button>Sign In</button>
+                </ul>
             </nav>
             <button onClick={handleClick} id="nav-btn">{open ? <CloseIcon fontSize={'large'} /> : <DehazeIcon fontSize={'large'} />}</button>
         </>

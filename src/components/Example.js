@@ -1,11 +1,11 @@
-import React from 'react'
+    import React from 'react'
 
 import exampleImg from '../public/example-img.png';
 
 const Example = () => {
     return (
-        <section className="example">
-            <div className="example-extra-layer">
+        <main className="main-example">
+            <section className="example">
                 <h4 id="peek">A   Sneak   Peek</h4>
                 <img src={exampleImg} alt="not found"/>
                 <div id="tag-line">
@@ -14,8 +14,8 @@ const Example = () => {
                     <h3>Advance.</h3>
                     <a href="#">Learn More</a>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
     )
 }
 

@@ -1,20 +1,24 @@
 import React from 'react'
 
-import getStartedBackdrop from '../public/get-started-backdrop.jpeg';
-
 const GetStarted = () => {
     return (
         <section className="start-now">
-            {/* <div className="backdrop-overlay">
-                <div className="start-now-extra-layer">
-                    <h3>It's Time to Empower Yourself!</h3>
-                    <button>Get Started</button>
-                </div>
-            </div> */}
-            <div className="start-now-extra-layer">
+            <div className="text">
                 <h3>It's Time To Empower Yourself!</h3>
                 <button>Get Started</button>
             </div>
+            {/* <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul> */}
         </section>
     )
 }
