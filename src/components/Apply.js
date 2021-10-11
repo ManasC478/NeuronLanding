@@ -17,7 +17,7 @@ const Apply = () => {
                             <li>- Must have experience with the topic you are applying for!</li>
                             <li>- Must have a computer to record/stream videos from (If you don't know how, we'll help!</li>
                         </ul>
-                        <button>Apply</button>
+                        <a href="https://forms.gle/XL84znyNnKeET7n26" rel="noreferrer" target="_blank">Apply</a>
                         <span>*Must be in high school or above</span>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Apply = () => {
                             <li>- Must have experience with social media and writing emails!</li>
                             <li>- Must be able to create infographics, promotional media, etc... as well as handle messages on social media!</li>
                         </ul>
-                        <button>Apply</button>
+                        <a href="https://forms.gle/eABVvp2xnQz95EuM6" rel="noreferrer" target="_blank">Apply</a>
                         <span>*Must be in high school or above</span>
                     </div>
                 </div>

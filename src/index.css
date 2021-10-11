@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
 
 :root {
   --secondary-background: #63a4ff;
@@ -105,7 +102,6 @@ nav > * {
 
 nav h1 {
   font-size: 36px;
-  font-family: "Cardo", serif;
   color: white;
 }
 
@@ -122,13 +118,15 @@ nav .nav-links {
   width: 50%;
 }
 
-nav .nav-links button {
+nav .nav-links #signin {
+  display: block;
   width: 100px;
-  padding: 10px 15px;
+  padding: 10px 0;
   background: #132e4d;
   border: none;
   color: white;
   border-radius: var(--primary-border-radius);
+  text-align: center;
 }
 
 .main-home {
@@ -167,13 +165,16 @@ nav .nav-links button {
 }
 
 .home .primary-text #get-started {
-  padding: 15px 30px;
+  display: block;
+  padding: 15px 0;
   font-size: 18px;
   border: none;
   border-radius: var(--primary-border-radius);
   color: white;
   background: #132e4d;
   margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .features {
@@ -376,7 +377,7 @@ nav .nav-links button {
   justify-content: center;
 }
 
-.team .links button {
+.team .links a {
   border: 1px solid white;
   display: block;
   width: 20px;
@@ -406,8 +407,12 @@ nav .nav-links button {
   margin-bottom: 50px;
 }
 
-.start-now button {
-  padding: 10px 50px;
+.start-now a {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
   font-size: 24px;
   border-radius: var(--primary-border-radius);
   border: none;
@@ -463,7 +468,11 @@ nav .nav-links button {
   margin: 10px 0;
 }
 
-.apply button {
+.apply a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
   margin-top: 15px;
   width: 100%;
   font-size: 18px;
@@ -509,8 +518,10 @@ footer p {
   line-height: 20px;
 }
 
-footer button {
-  height: 50px;
+footer #signup {
+  display: block;
+  padding: 15px 0;
+  text-align: center;
   width: 100%;
   font-size: 18px;
   border-radius: var(--primary-border-radius);

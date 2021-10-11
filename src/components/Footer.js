@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import InstagramIcon from '@material-ui/icons/Instagram';
+// import FacebookIcon from '@material-ui/icons/Facebook';
 
 const Footer = () => {
     return (
@@ -29,13 +28,13 @@ const Footer = () => {
                 </div>
                 <div className="overview">
                     <h1>Neuron</h1>
-                    <div className="media">
+                    {/* <div className="media">
                         <a href="#"><LinkedInIcon /></a>
                         <a href="#"><InstagramIcon /></a>
                         <a href="#"><FacebookIcon /></a>
-                    </div>
+                    </div> */}
                     <p>An all in one community-sourced platform for education.  Unleash the power of online learning with handmade lessons and live lessons. Empower yourself!</p>
-                    <button>Sign Up</button>
+                    <a href="https://app.neuroneducation.org" rel="noreferrer" target="_blank" id="signup">Sign Up</a>
                 </div>
                 <hr />
                 <p id="rights">©Copyright 2021. All rights reserved by Neuron Education.</p>

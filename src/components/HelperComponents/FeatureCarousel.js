@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
@@ -11,6 +11,14 @@ import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 
 const FeatureCarousel = () => {
     const [x, setX] = useState(0);
+    
+    const goLeft = () => {
+        x === 0 ? setX(-100 * 5) : setX(x + 100);
+    }
+
+    const goRight = useCallback(() => {
+        x === -100 * 5 ? setX(0) : setX(x - 100);
+    }, [x]);
 
     useEffect(() => {
         const automaticSlider = setInterval(() => {
@@ -19,15 +27,7 @@ const FeatureCarousel = () => {
         return () => {
             clearInterval(automaticSlider);
         }
-    }, [x])
-
-    const goLeft = () => {
-        x === 0 ? setX(-100 * 5) : setX(x + 100);
-    }
-
-    const goRight = () => {
-        x === -100 * 5 ? setX(0) : setX(x - 100);
-    }
+    }, [x, goRight])
 
     return (
         <>

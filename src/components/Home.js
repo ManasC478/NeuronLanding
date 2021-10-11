@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="primary-text">
                     <h1>Neuron</h1>
                     <p>An all in one community-sourced platform for education. Unleash the power of online learning with handmade lessons and live lessons. Empower yourself!</p>
-                    <button id="get-started">Get Started Today</button>
+                    <a href="https://app.neuroneducation.org" id="get-started">Get Started Today</a>
                 </div>
             </section>
         </main>

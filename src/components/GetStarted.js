@@ -5,7 +5,7 @@ const GetStarted = () => {
         <section className="start-now">
             <div className="text">
                 <h3>It's Time To Empower Yourself!</h3>
-                <button>Get Started</button>
+                <a href="https://app.neuroneducation.org" rel="noreferrer" target="_blank">Get Started</a>
             </div>
         </section>
     )

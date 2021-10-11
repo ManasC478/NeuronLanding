@@ -14,8 +14,8 @@ const Member = ({data}) => {
                     <h3>{data.name}</h3>
                     <h5>{data.position}</h5>
                    <div className="links">
-                        <button href={data.linkedIn}><LinkedInIcon /></button>
-                        <button href={data.github}><GitHubIcon /></button>
+                        <a href={data.linkedIn} target="_blank" rel="noreferrer" style={{display: data.linkedIn ? 'inline' : 'none'}}><LinkedInIcon /></a>
+                        <a href={data.github} target="_blank" rel="noreferrer" style={{display: data.github ? 'inline' : 'none'}}><GitHubIcon /></a>
                     </div>
                 </div>
             </div>
