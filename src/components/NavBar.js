@@ -36,7 +36,7 @@ const NavBar = () => {
     }
 
     return (
-        <>
+        <main class="main-nav">
             <nav style={window.innerWidth <= 700 ? open ? { transform: 'translateX(100%)' } : { transform: 'translateX(200%)' } : { transform: 'translateX(0%)' }}>
                 <h1>Neuron</h1>
                 <ul className="nav-links">
@@ -48,7 +48,7 @@ const NavBar = () => {
                 </ul>
             </nav>
             <button onClick={handleClick} id="nav-btn">{open ? <CloseIcon fontSize={'large'} /> : <DehazeIcon fontSize={'large'} />}</button>
-        </>
+        </main>
     )
 }
 

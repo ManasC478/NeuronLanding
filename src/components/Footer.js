@@ -37,11 +37,6 @@ const Footer = () => {
                     <p>An all in one community-sourced platform for education.  Unleash the power of online learning with handmade lessons and live lessons. Empower yourself!</p>
                     <button>Sign Up</button>
                 </div>
-                {/* <p>For questions and Inquiries, please email</p>
-                <a href="mailto:contactneuronedu@gmail.com">Contact Us</a>
-                <p id="made-by">Made with <FavoriteIcon /> by Neuron</p> */}
-                {/* <div className="backdrop-overlay">
-                </div> */}
                 <hr />
                 <p id="rights">©Copyright 2021. All rights reserved by Neuron Education.</p>
             </footer>

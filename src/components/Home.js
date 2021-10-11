@@ -5,7 +5,7 @@ import headImg from '../public/Head.png';
 const Home = () => {
 
     return (
-        // <main className="main-home">
+        <main className="main-home">
             <section className="home" id="home">
                 <img src={headImg} alt="Not Found" />
                 <div className="primary-text">
@@ -14,7 +14,7 @@ const Home = () => {
                     <button id="get-started">Get Started Today</button>
                 </div>
             </section>
-        // </main>
+        </main>
     )
 }
 

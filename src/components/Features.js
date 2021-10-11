@@ -81,10 +81,6 @@ const Features = () => {
                         <FeatureCarousel />
                 }
             </div>
-            <div id="circle1"></div>
-            <div id="circle2"></div>
-            <div id="circle3"></div>
-            <div id="circle4"></div>
         </section>
     )
 }
