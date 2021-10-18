@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/NeuronEducation/static/css/main.1e7e0aa4.chunk.css",
-    "main.js": "/NeuronEducation/static/js/main.88eee5bf.chunk.js",
-    "main.js.map": "/NeuronEducation/static/js/main.88eee5bf.chunk.js.map",
-    "runtime-main.js": "/NeuronEducation/static/js/runtime-main.4c4165dd.js",
-    "runtime-main.js.map": "/NeuronEducation/static/js/runtime-main.4c4165dd.js.map",
-    "static/js/2.1f84488c.chunk.js": "/NeuronEducation/static/js/2.1f84488c.chunk.js",
-    "static/js/2.1f84488c.chunk.js.map": "/NeuronEducation/static/js/2.1f84488c.chunk.js.map",
-    "index.html": "/NeuronEducation/index.html",
-    "static/css/main.1e7e0aa4.chunk.css.map": "/NeuronEducation/static/css/main.1e7e0aa4.chunk.css.map",
-    "static/js/2.1f84488c.chunk.js.LICENSE.txt": "/NeuronEducation/static/js/2.1f84488c.chunk.js.LICENSE.txt",
-    "static/media/Alexiy.39a1956a.jpeg": "/NeuronEducation/static/media/Alexiy.39a1956a.jpeg",
-    "static/media/Dwijen.fc6815c7.jpg": "/NeuronEducation/static/media/Dwijen.fc6815c7.jpg",
-    "static/media/Head.3eaeef5a.png": "/NeuronEducation/static/media/Head.3eaeef5a.png",
-    "static/media/Soham.632e2e65.jpg": "/NeuronEducation/static/media/Soham.632e2e65.jpg",
-    "static/media/about-us.0239a64b.svg": "/NeuronEducation/static/media/about-us.0239a64b.svg",
-    "static/media/example-img.be100204.png": "/NeuronEducation/static/media/example-img.be100204.png",
-    "static/media/index.css": "/NeuronEducation/static/media/line-3.8d3ea4eb.jpg",
-    "static/media/person-placeholder.845a2383.png": "/NeuronEducation/static/media/person-placeholder.845a2383.png"
+    "main.css": "/NeuronLanding/static/css/main.db9cb1de.chunk.css",
+    "main.js": "/NeuronLanding/static/js/main.88eee5bf.chunk.js",
+    "main.js.map": "/NeuronLanding/static/js/main.88eee5bf.chunk.js.map",
+    "runtime-main.js": "/NeuronLanding/static/js/runtime-main.0afc4fea.js",
+    "runtime-main.js.map": "/NeuronLanding/static/js/runtime-main.0afc4fea.js.map",
+    "static/js/2.1f84488c.chunk.js": "/NeuronLanding/static/js/2.1f84488c.chunk.js",
+    "static/js/2.1f84488c.chunk.js.map": "/NeuronLanding/static/js/2.1f84488c.chunk.js.map",
+    "index.html": "/NeuronLanding/index.html",
+    "static/css/main.db9cb1de.chunk.css.map": "/NeuronLanding/static/css/main.db9cb1de.chunk.css.map",
+    "static/js/2.1f84488c.chunk.js.LICENSE.txt": "/NeuronLanding/static/js/2.1f84488c.chunk.js.LICENSE.txt",
+    "static/media/Alexiy.39a1956a.jpeg": "/NeuronLanding/static/media/Alexiy.39a1956a.jpeg",
+    "static/media/Dwijen.fc6815c7.jpg": "/NeuronLanding/static/media/Dwijen.fc6815c7.jpg",
+    "static/media/Head.3eaeef5a.png": "/NeuronLanding/static/media/Head.3eaeef5a.png",
+    "static/media/Soham.632e2e65.jpg": "/NeuronLanding/static/media/Soham.632e2e65.jpg",
+    "static/media/about-us.0239a64b.svg": "/NeuronLanding/static/media/about-us.0239a64b.svg",
+    "static/media/example-img.be100204.png": "/NeuronLanding/static/media/example-img.be100204.png",
+    "static/media/index.css": "/NeuronLanding/static/media/line-3.8d3ea4eb.jpg",
+    "static/media/person-placeholder.845a2383.png": "/NeuronLanding/static/media/person-placeholder.845a2383.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c4165dd.js",
+    "static/js/runtime-main.0afc4fea.js",
     "static/js/2.1f84488c.chunk.js",
-    "static/css/main.1e7e0aa4.chunk.css",
+    "static/css/main.db9cb1de.chunk.css",
     "static/js/main.88eee5bf.chunk.js"
   ]
 }
