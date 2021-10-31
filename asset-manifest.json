@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NeuronLanding/static/css/main.db9cb1de.chunk.css",
+    "main.css": "/NeuronLanding/static/css/main.9b6efc3c.chunk.css",
     "main.js": "/NeuronLanding/static/js/main.88eee5bf.chunk.js",
     "main.js.map": "/NeuronLanding/static/js/main.88eee5bf.chunk.js.map",
     "runtime-main.js": "/NeuronLanding/static/js/runtime-main.0afc4fea.js",
@@ -8,7 +8,7 @@
     "static/js/2.1f84488c.chunk.js": "/NeuronLanding/static/js/2.1f84488c.chunk.js",
     "static/js/2.1f84488c.chunk.js.map": "/NeuronLanding/static/js/2.1f84488c.chunk.js.map",
     "index.html": "/NeuronLanding/index.html",
-    "static/css/main.db9cb1de.chunk.css.map": "/NeuronLanding/static/css/main.db9cb1de.chunk.css.map",
+    "static/css/main.9b6efc3c.chunk.css.map": "/NeuronLanding/static/css/main.9b6efc3c.chunk.css.map",
     "static/js/2.1f84488c.chunk.js.LICENSE.txt": "/NeuronLanding/static/js/2.1f84488c.chunk.js.LICENSE.txt",
     "static/media/Alexiy.39a1956a.jpeg": "/NeuronLanding/static/media/Alexiy.39a1956a.jpeg",
     "static/media/Dwijen.fc6815c7.jpg": "/NeuronLanding/static/media/Dwijen.fc6815c7.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.0afc4fea.js",
     "static/js/2.1f84488c.chunk.js",
-    "static/css/main.db9cb1de.chunk.css",
+    "static/css/main.9b6efc3c.chunk.css",
     "static/js/main.88eee5bf.chunk.js"
   ]
 }
