@@ -12,7 +12,7 @@ const Example = () => {
                     <h3>Watch.</h3>
                     <h3>Learn.</h3>
                     <h3>Advance.</h3>
-                    <a href="https://app.neuroneducation.org">Learn More</a>
+                    <a href="https://app.neuroneducation.org/" rel="noreferrer" target="_blank">Learn More</a>
                 </div>
             </section>
         </main>

@@ -519,6 +519,7 @@ footer p {
 }
 
 footer #signup {
+  color: #000;
   display: block;
   padding: 15px 0;
   text-align: center;
@@ -527,6 +528,10 @@ footer #signup {
   border-radius: var(--primary-border-radius);
   background: var(--tertiary-background);
   border: none;
+}
+
+footer #signup:hover {
+  text-decoration: none;
 }
 
 footer hr,

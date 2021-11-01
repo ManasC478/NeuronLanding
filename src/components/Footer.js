@@ -28,13 +28,8 @@ const Footer = () => {
                 </div>
                 <div className="overview">
                     <h1>Neuron</h1>
-                    {/* <div className="media">
-                        <a href="#"><LinkedInIcon /></a>
-                        <a href="#"><InstagramIcon /></a>
-                        <a href="#"><FacebookIcon /></a>
-                    </div> */}
                     <p>An all in one community-sourced platform for education.  Unleash the power of online learning with handmade lessons and live lessons. Empower yourself!</p>
-                    <a href="https://app.neuroneducation.org" rel="noreferrer" target="_blank" id="signup">Sign Up</a>
+                    <a href="https://app.neuroneducation.org/" rel="noreferrer" target="_blank" id="signup">Sign Up</a>
                 </div>
                 <hr />
                 <p id="rights">©Copyright 2021. All rights reserved by Neuron Education.</p>

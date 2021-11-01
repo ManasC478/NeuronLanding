@@ -37,7 +37,7 @@ const NavBar = () => {
                     <a href="#about"><li>About</li></a>
                     <a href="#team"><li>Team</li></a>
                     <a href="#apply"><li>Apply</li></a>
-                    <a href="https://app.neuroneducation.org" rel="noreferrer" target="_blank" id="signin">Sign In</a>
+                    <a href="https://app.neuroneducation.org/" rel="noreferrer" target="_blank" id="signin">Sign In</a>
                 </ul>
             </nav>
             <button onClick={handleClick} id="nav-btn">{open ? <CloseIcon fontSize={'large'} /> : <DehazeIcon fontSize={'large'} />}</button>
