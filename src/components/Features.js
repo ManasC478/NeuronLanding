@@ -37,14 +37,14 @@ const Features = () => {
                                     <LocalLibraryIcon fontSize={'large'} />
                                     <article>
                                         <h4>Learn Something New</h4>
-                                        <p>Search and explore, there will always be new content for any subject</p>
+                                        <p>Search and explore, there will always be new content for any subject.</p>
                                     </article>
                                 </div>
                                 <div className="feature-item">
                                     <ForumIcon fontSize={'large'} />
                                     <article>
                                         <h4>Interactive Sessions</h4>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, nobis!</p>
+                                        <p>Make new friends and groups by chatting with other users.</p>
                                     </article>
                                 </div>
                                 <div className="feature-item">

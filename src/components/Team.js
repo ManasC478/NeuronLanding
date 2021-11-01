@@ -4,6 +4,7 @@ import Member from './HelperComponents/Member';
 import DwijenImage from '../public/Dwijen.jpg';
 import AlexiyImage from '../public/Alexiy.jpeg';
 import SohamImage from '../public/Soham.jpg';
+import ManasImage from '../public/Manas.jpg';
 
 const Team = () => {
 
@@ -23,7 +24,7 @@ const Team = () => {
             github: "https://github.com/dwijenchawra"
         },
         {
-            image_url: "",
+            image_url: ManasImage,
             name: "Manas Chougule",
             position: "Developer",
             linkedIn: "https://www.linkedin.com/in/manas-chougule-8529671bb/",
