@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Box, Grid, GridItem, VStack, Text } from "@chakra-ui/layout";
 
 import HomeIcon from "@material-ui/icons/Home";
 import CreateIcon from "@material-ui/icons/Create";
@@ -7,8 +8,42 @@ import MoneyOffIcon from "@material-ui/icons/MoneyOff";
 import HelpIcon from "@material-ui/icons/Help";
 import LocalLibraryIcon from "@material-ui/icons/LocalLibrary";
 import FeatureCarousel from "./HelperComponents/FeatureCarousel";
+
 const Features = () => {
   const [carousel, setCarousel] = useState(window.innerWidth <= 615);
+
+  const featureItems = [
+    {
+      title: "Learn Something New",
+      desc: "Search and explore, there will always be new content for any subject.",
+      icon: LocalLibraryIcon,
+    },
+    {
+      title: "Interactive Sessions",
+      desc: "Make new friends and groups by chatting with other users.",
+      icon: ForumIcon,
+    },
+    {
+      title: "Sessions are FREE",
+      desc: "Everything is free. Watch as many videos as you want for no charge!",
+      icon: MoneyOffIcon,
+    },
+    {
+      title: "Ask Questions",
+      desc: "When confused ask the vibrant community and receive quality feedback.",
+      icon: HelpIcon,
+    },
+    {
+      title: "Find Practice",
+      desc: "Find extensive practice sets to perfect what you learned from the videos!",
+      icon: CreateIcon,
+    },
+    {
+      title: "Join a Community",
+      desc: "Be a NEURON. Join the community and add your own unique impulses to help others.",
+      icon: HomeIcon,
+    },
+  ];
 
   useEffect(() => {
     const setState = () => {
@@ -21,77 +56,113 @@ const Features = () => {
   }, []);
 
   return (
-    <section className='features' id='features'>
+    // <section className='features' id='features'>
+    //   <div className='header'>
+    //     <h2>Features</h2>
+    //     <div id='underline'></div>
+    //   </div>
+    //   <div className='feature-container'>
+    //     {!carousel ? (
+    //       <>
+    //         <div className='feature-item'>
+    //           <LocalLibraryIcon fontSize={"large"} />
+    //           <article>
+    //             <h4>Learn Something New</h4>
+    //             <p>
+    //               Search and explore, there will always be new content for any
+    //               subject.
+    //             </p>
+    //           </article>
+    //         </div>
+    //         <div className='feature-item'>
+    //           <ForumIcon fontSize={"large"} />
+    //           <article>
+    //             <h4>Interactive Sessions</h4>
+    //             <p>Make new friends and groups by chatting with other users.</p>
+    //           </article>
+    //         </div>
+    //         <div className='feature-item'>
+    //           <MoneyOffIcon fontSize={"large"} />
+    //           <article>
+    //             <h4>Sessions are FREE</h4>
+    //             <p>
+    //               Everything is free. Watch as many videos as you want for no
+    //               charge!
+    //             </p>
+    //           </article>
+    //         </div>
+    //         <div className='feature-item'>
+    //           <HelpIcon fontSize={"large"} />
+    //           <article>
+    //             <h4>Ask Questions</h4>
+    //             <p>
+    //               When confused ask the vibrant community and receive quality
+    //               feedback.
+    //             </p>
+    //           </article>
+    //         </div>
+    //         <div className='feature-item'>
+    //           <CreateIcon fontSize={"large"} />
+    //           <article>
+    //             <h4>Find Practice</h4>
+    //             <p>
+    //               Find extensive practice sets to perfect what you learned from
+    //               the videos!
+    //             </p>
+    //           </article>
+    //         </div>
+    //         <div className='feature-item'>
+    //           <HomeIcon fontSize={"large"} />
+    //           <article>
+    //             <h4>Join a Community</h4>
+    //             <p>
+    //               Be a NEURON. Join the community and add your own unique
+    //               impulses to help others.
+    //             </p>
+    //           </article>
+    //         </div>
+    //       </>
+    //     ) : (
+    //       <FeatureCarousel />
+    //     )}
+    //   </div>
+    // </section>
+
+    <Box className='container'>
       <div className='header'>
-        <h2>Features</h2>
+        <Text as={"h2"} fontWeight='medium'>
+          Features
+        </Text>
         <div id='underline'></div>
       </div>
-      <div className='feature-container'>
-        {!carousel ? (
-          <>
-            <div className='feature-item'>
-              <LocalLibraryIcon fontSize={"large"} />
-              <article>
-                <h4>Learn Something New</h4>
-                <p>
-                  Search and explore, there will always be new content for any
-                  subject.
-                </p>
-              </article>
-            </div>
-            <div className='feature-item'>
-              <ForumIcon fontSize={"large"} />
-              <article>
-                <h4>Interactive Sessions</h4>
-                <p>Make new friends and groups by chatting with other users.</p>
-              </article>
-            </div>
-            <div className='feature-item'>
-              <MoneyOffIcon fontSize={"large"} />
-              <article>
-                <h4>Sessions are FREE</h4>
-                <p>
-                  Everything is free. Watch as many videos as you want for no
-                  charge!
-                </p>
-              </article>
-            </div>
-            <div className='feature-item'>
-              <HelpIcon fontSize={"large"} />
-              <article>
-                <h4>Ask Questions</h4>
-                <p>
-                  When confused ask the vibrant community and receive quality
-                  feedback.
-                </p>
-              </article>
-            </div>
-            <div className='feature-item'>
-              <CreateIcon fontSize={"large"} />
-              <article>
-                <h4>Find Practice</h4>
-                <p>
-                  Find extensive practice sets to perfect what you learned from
-                  the videos!
-                </p>
-              </article>
-            </div>
-            <div className='feature-item'>
-              <HomeIcon fontSize={"large"} />
-              <article>
-                <h4>Join a Community</h4>
-                <p>
-                  Be a NEURON. Join the community and add your own unique
-                  impulses to help others.
-                </p>
-              </article>
-            </div>
-          </>
-        ) : (
-          <FeatureCarousel />
-        )}
-      </div>
-    </section>
+      <Grid templateColumns='repeat(3, 1fr)' gap='50px'>
+        {featureItems.map((item, index) => {
+          const Icon = item.icon;
+          return (
+            <GridItem
+              key={index}
+              className='feature-item'
+              p={"25px"}
+              rounded='lg'
+              borderColor='cyan.200'
+              borderWidth='1px'
+            >
+              <VStack spacing='20px' align='left'>
+                <Icon className='features-svg' />
+                <Box as={"article"}>
+                  <Text as={"h4"} fontSize='24px' fontWeight='medium' mb={2}>
+                    {item.title}
+                  </Text>
+                  <Text as={"p"} fontWeight='thin'>
+                    {item.desc}
+                  </Text>
+                </Box>
+              </VStack>
+            </GridItem>
+          );
+        })}
+      </Grid>
+    </Box>
   );
 };
 
